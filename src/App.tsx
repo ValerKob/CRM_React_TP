@@ -8,6 +8,7 @@ import Routes from './routes/Routes';
 
 // For Default import Default.scss
 import './assets/scss/Default.scss';
+import { configureFakeBackend } from './helpers/fake-backend';
 
 // For Saas import Saas.scss
 // import './assets/scss/Saas.scss';
@@ -25,7 +26,7 @@ import './assets/scss/Default.scss';
 // import './assets/scss/Material.scss';
 
 // configure fake backend
-//configureFakeBackend();
+configureFakeBackend();
 
 const App = () => {
   return (
